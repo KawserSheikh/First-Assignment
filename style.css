@@ -191,14 +191,13 @@ footer p{
 .social-link a{
     height: 40px;
     width: 40px;
-    background-color: #383535;
+    background-color: #ec4b74;
     border-radius: 5px;
     display: inline-block;
-    border: 1px solid #383535;
+    border: 1px solid #ec4b74;
     line-height: 32px;
     text-align: center;
     margin: 0 10px;
-    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -233,3 +232,42 @@ footer p{
     color: #DE2D7D;
 }
 /* social link style end */
+
+/* menu style start */
+.menu{
+    position:absolute;
+    left: 0px; 
+    right: 0px;
+    padding: 0px 15px;
+    width: 1170px;
+    padding-top: 15px;
+    
+}
+.menu-items ul{
+    float: right;
+    margin-top: 10px;
+}
+
+.menu-items ul li {
+	float: left;
+	margin-right: 25px;
+	position: relative;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.menu-items ul li a{
+    color: #525050;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-items ul li a:hover{
+    color: #ec4b74;
+    transition: all 0.3s ease;
+}
+/* menu style end */
