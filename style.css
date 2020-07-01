@@ -9,7 +9,7 @@ body{font-family: 'Poppins', sans-serif;}
     float: left;
 }
 
-
+/* top area style start */
 .intro {
 	font-size: 50px;
 	font-weight: 400;
@@ -39,6 +39,7 @@ body{font-family: 'Poppins', sans-serif;}
 .right-content{
     padding-left: 0;
 }
+
 .top-area{
     background-image: url(img/header-bg.png);
     background-size: cover;
@@ -55,7 +56,9 @@ body{font-family: 'Poppins', sans-serif;}
     margin: 20px 0;
     text-transform: uppercase;
 }
+/* top area style end */
 
+/* biography-area style start */
 .biography-area {
     background-image: url(img/biography-bg.png);
     background-size: cover;
@@ -70,19 +73,20 @@ body{font-family: 'Poppins', sans-serif;}
 
 .biography-content h1{
     font-size: 50px; 
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
 .biography-content p{
     padding: 30px 0;
     margin-bottom: 10px;
 }
+
 .biography-content {
 	margin-top: 125px;
 }
+/* biography-area style end */
 
-
+/* work area style start */
 .work-area{
     background-image: url(img/latest-work-bg.png);
     background-size: cover;
@@ -112,7 +116,9 @@ body{font-family: 'Poppins', sans-serif;}
 .work-content img{
     width: 100%;
 }
+/* work area style end */
 
+/* feedback & contact area style start */
 .feedback-content{
     text-align: center;
 }
@@ -125,13 +131,16 @@ body{font-family: 'Poppins', sans-serif;}
 .feedback {
     padding: 30px 0;
 }
+
 .feedback h4{
     font-size: 24px;
     font-weight: 600;
 }
+
 .client-details{
     padding: 30px 0;
 }
+
 .client-details p{
     font-size: 14px;
     color: #808080;
@@ -151,7 +160,9 @@ body{font-family: 'Poppins', sans-serif;}
     margin-bottom: 80px;
     margin-top: 50px;
 }
+/* feedback & contact area style end */
 
+/* footer style start */
 .feedback-area{
     background-image: url(img/footer-bg.png);
     background-size: cover;
@@ -164,7 +175,9 @@ footer p{
     font-weight: 300;
     color: #808080;
 }
+/* footer style end */
 
+/* social link style start */
 .social-link{
     float: left;
     height: 100px;
@@ -172,9 +185,7 @@ footer p{
     display:block;
     text-align: center;
     margin: auto;
-    font-size: 25px;
-
-    
+    font-size: 25px;   
 }
 
 .social-link a{
@@ -190,27 +201,35 @@ footer p{
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 .social-link a:hover{
     background-color: transparent;
 }
+
 .social-link a .fa{
     color: #fff;
     font-size: 18px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 } 
+
 .social-link a:hover .fa-facebook{
     color: #4C6EF5;
 }
+
 .social-link a:hover .fa-twitter{
     color: #4babf7;
 }
+
 .social-link a:hover .fa-whatsapp{
     color: #82C91E;
 }
+
 .social-link a:hover .fa-linkedin{
     color: #0077B7;
 }
+
 .social-link a:hover .fa-instagram{
     color: #DE2D7D;
 }
+/* social link style end */
