@@ -1,0 +1,216 @@
+*{margin: 0 auto; padding: 0;box-sizing: border-box;}
+
+body{font-family: 'Poppins', sans-serif;}
+
+.half-width{
+    width: 40%;
+    margin: 4%;
+    padding: 2%;
+    float: left;
+}
+
+
+.intro {
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.hero-name{
+    font-size: 50px; 
+    font-weight: 650;
+    color: #EC4C7A;
+}
+
+.left-content p {
+	color: #808080;
+	padding: 15px 0 30px 0;
+	margin-bottom: 10px;
+}
+
+.rigt-content img {
+	width: 90%;
+	margin-top: 50px;
+}
+
+.left-content{
+    padding: 150px 0 0 130px;
+
+}
+.right-content{
+    padding-left: 0;
+}
+.top-area{
+    background-image: url(img/header-bg.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,#EC5094, #ED4B72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.biography-area {
+    background-image: url(img/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.biography-area img{
+    width: 90%;
+    margin-left: 50px;
+}
+
+.biography-content h1{
+    font-size: 50px; 
+    font-weight: 600;
+    
+}
+
+.biography-content p{
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+.biography-content {
+	margin-top: 125px;
+}
+
+
+.work-area{
+    background-image: url(img/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.work-area-content{
+    width: 1170px ;
+    margin: auto;   
+    padding: 100px 0; 
+}
+
+.work-area-content h1{
+    padding-bottom: 60px;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+.work-content{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.work-content img{
+    width: 100%;
+}
+
+.feedback-content{
+    text-align: center;
+}
+.client-feedback h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.feedback {
+    padding: 30px 0;
+}
+.feedback h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.client-details{
+    padding: 30px 0;
+}
+.client-details p{
+    font-size: 14px;
+    color: #808080;
+}
+
+.message{
+    font-size: 16px;
+}
+
+.contact-me {
+	background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+	color: white;
+	text-align: center;
+	padding: 40px 100px;
+	border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.feedback-area{
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+}
+
+footer p{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.social-link{
+    float: left;
+    height: 100px;
+    width: 100%;
+    display:block;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+
+    
+}
+
+.social-link a{
+    height: 40px;
+    width: 40px;
+    background-color: #383535;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #383535;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 10px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.social-link a:hover{
+    background-color: transparent;
+}
+.social-link a .fa{
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+} 
+.social-link a:hover .fa-facebook{
+    color: #4C6EF5;
+}
+.social-link a:hover .fa-twitter{
+    color: #4babf7;
+}
+.social-link a:hover .fa-whatsapp{
+    color: #82C91E;
+}
+.social-link a:hover .fa-linkedin{
+    color: #0077B7;
+}
+.social-link a:hover .fa-instagram{
+    color: #DE2D7D;
+}
